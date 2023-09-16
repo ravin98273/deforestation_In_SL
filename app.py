@@ -23,8 +23,8 @@ col1, col2 = st.columns(2)
 with open('deforestaion_model.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 
-    X_test = np.load('Dataset\X_test.npy')
-    y_test = np.load('Dataset\y_test.npy')
+    X_test = np.load('..\data\X_test.npy')
+    y_test = np.load('..\data\y_test.npy')
 
 y_pred = loaded_model.predict(X_test)
 
