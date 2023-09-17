@@ -1,0 +1,10 @@
+rasterio==1.2.1
+streamlit
+pandas
+numpy
+scikit-learn
+pickle
+matplotlib
+os
+PIL
+requests
